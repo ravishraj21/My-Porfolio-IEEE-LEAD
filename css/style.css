@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+}
+
+
+.image img{
+    padding : 0px 850px 0px 0px;
+    width: 50px; 
+}  
+
+  .navbar{
+    position: fixed;
+    top : 0%;
+    z-index: 100;
+    padding : 12px;
+  }
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar ul li {
+    margin: 0px 8px;
+    justify-content: center;
+  }
+
+  
+
+  .navbar ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: black;
+    transition: background-color 0.2s;
+    border-radius: 50px;
+  }
+
+  .navbar ul li a:hover {
+    background-color: black;
+    transition: background-color 0.4s;
+    color: #fdfdfd;
+  }
+
+  .home-page{
+      background-image: url("img/home.jpg");
+  }
+  
+
+  .intro{
+      font-size: 40px;
+    padding : 280px 620px;
+    color : black; 
+  }
+
+  .about-head{
+    text-align: center;
+    color : black;
+    font-size: 80px;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .about-section{
+    padding : 0px 0px 0px 15px;
+    font-size: 20px;
+  }
+
+  .rating{
+    padding : 30px;
+
+    font-size: 20px;
+  }
+
+  .skills-head{
+    text-align: center;
+    color : black;
+    font-size: 80px;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .skills-section , .skill-sub{
+    padding : 0px 0px 0px 15px;
+    font-size: 20px;
+  }
+
+  .skills-section{
+    padding:0px 0px 30px 30px;
+  }
+
+  .tech1 , .tech2{
+    display : flex;
+  }
+
+  .tech1 , .tech2 li{
+    text-align: center;
+    list-style: none;
+  }
+
+  .tech1 li img{
+    /* text-align: center; */
+    width: 30%;
+  }
+
+  .tech2 li img{
+    /* text-align: center; */
+    width: 30%;
+  }
+
+
+  .projects-head{
+    text-align: center;
+    color : black;
+    font-size: 80px;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .contact-details{
+    text-align: center;
+  }
+
+  .contact-head{
+    text-align: center;
+    color :black;
+    font-size: 80px;
+    padding: 0px 0px 50px 0px;
+  }
+
+  .last-lines{
+    font-size: 20px;
+    padding : 20px 0px 30px 0px;
+  }
+
+  .email{
+    padding: 20px;
+  }
+
+
+  .copyright{
+    font-size: 15px;
+    padding: 30px 0px 10px 0px;
+  }
+  .social-accounts a{
+    padding : 0px 20px;
+  }
+
+
+.home-page{
+    height: 1000px;
+}
+
+.skills-page{
+    height: 700px;
+}
+
+.about-page{
+    height: 700px;
+}
+
+.projects-page{
+    height: 700px;
+}
+
