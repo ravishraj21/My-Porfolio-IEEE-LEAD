@@ -31,13 +31,13 @@
     padding: 10px 20px;
     font-family: "Comic Sans MS";
     font-size: 18px;
-    color: black;
+    color: #940eee;
     transition: background-color 0.2s;
     border-radius: 50px;
   }
 
   .navbar ul li a:hover {
-    background-color: black;
+    background-color: #940eee;
     transition: background-color 0.4s;
     color: #fdfdfd;
   }
@@ -50,12 +50,12 @@
   .intro{
       font-size: 40px;
     padding : 280px 620px;
-    color : black; 
+    color : #940eee; 
   }
 
   .about-head{
     text-align: center;
-    color : black;
+    color : #940eee;
     font-size: 80px;
     padding: 0px 0px 50px 0px;
   }
@@ -73,7 +73,7 @@
 
   .skills-head{
     text-align: center;
-    color : black;
+    color : #940eee;
     font-size: 80px;
     padding: 0px 0px 50px 0px;
   }
@@ -109,7 +109,7 @@
 
   .projects-head{
     text-align: center;
-    color : black;
+    color : #940eee;
     font-size: 80px;
     padding: 0px 0px 50px 0px;
   }
@@ -120,7 +120,7 @@
 
   .contact-head{
     text-align: center;
-    color :black;
+    color :#940eee;
     font-size: 80px;
     padding: 0px 0px 50px 0px;
   }
@@ -160,4 +160,3 @@
     height: 700px;
 }
 
-/* djvnvj */
