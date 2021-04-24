@@ -2,6 +2,24 @@
     margin: 0px;
 }
 
+/* body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("../img/purple2.gif") top right no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+} */
+/* 
+.home-page {
+  background: url('img/purple2.gif');
+            background-repeat: no-repeat;
+            background-size: contain;
+} */
+
 
 /* .image img{
     padding : 0px 850px 0px 0px;
@@ -14,6 +32,13 @@
     z-index: 100;
     padding : 12px;
   }
+
+  #nav-menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
   
 
   .home-page{
@@ -22,10 +47,12 @@
   
 
   .intro{
+    padding-top: 33vh;
       font-size: 32px;
-    padding : 280px 620px;
-    color : #940eee; 
+      text-align: center;
+    color : white; 
   }
+
 
   .about-head{
     text-align: center;
@@ -92,19 +119,19 @@
 
 
 .home-page{
-    height: 1000px;
+    height: 100vh;
 }
 
 .skills-page{
-    height: 700px;
+    height: 100vh;
 }
 
 .about-page{
-    height: 700px;
+    height: 100vh;
 }
 
 .projects-page{
-    height: 700px;
+    height: 100vh;
 }
 .projects-text{
   font-size: 30px;
